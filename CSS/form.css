@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+form label{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+label{
+    padding: 2px;
+    display: inline-block;
+}
+input{
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+input[type=radio]{
+    width: 25px;
+}
+select{
+    padding: 5px;
+    background-color: #bbb;
+}
+input[type=submit],[type=date]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+input[type=submit]:hover{
+    background-color: #bbb;
+}

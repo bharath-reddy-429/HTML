@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form.css">
+    <title>Employee Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <label for="">Employee ID : </label><br>
+            <input type="number" name="EmpId" placeholder="Enter Your Employee ID" required><br>
+            <label for="">Employee Name :</label><br>
+            <input type="text" name="EmpNAme" placeholder="Enter Your Full Name" required><br>
+            <label for="">Contact No :</label><br>
+            <input type="tel" name="phone no" placeholder="Enter Number" required><br>
+            <label for="">Email :</label><br>
+            <input type="email" name="email" placeholder="Enter Your Email"><br>
+            <label for="">Technology :</label><br>
+            <input type="radio" name="tech" value="Front End">
+            <label for="">Front End</label><br>
+            <input type="radio" name="tech" value="Back End">
+            <label for="">Back End</label><br>
+            <input type="radio" name="tech" value="Full Stack">
+            <label for="">Full Stack</label><br>
+            <label for="">Course</label>
+            <select name="course" id="">
+                <option value="python">Python</option>
+                <option value="Java">Java</option>
+                <option value="DBMS">DBMS</option>
+                <option value="C\C++">C\C++</option>
+                <option value="Django">Django</option>
+            </select>
+            <br>
+            <label for="">Prefered Dates</label><br>
+            <label for="">Start Date</label><br>
+            <input type="date" name="StartDate"><br>
+            <label for="">End Date</label><br>
+            <input type="date" name="EndDate"><br>
+            <label for="">Other Facilities :</label>
+            <select name="Other Facilities" id="">
+                <option value="Virtual Lab">Virtual Lab</option>
+                <option value="Online Quiz">Online Quiz</option>
+                <option value="Online Instructor">Online Instructor</option>
+            </select><br><br>
+            <input type="Submit" name="Submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
